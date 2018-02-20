@@ -18,7 +18,7 @@
 						<b><span class="text-success">You are currently logged in.</span></b>
 					</security:authorize>
 					<security:authorize access="!hasRole('ROLE_USER')">
-						<b><span class="text-error">You are <em>NOT</em> currently logged in.</span></b>			
+					<b><span class="text-error">You are <b>NOT</b> currently logged in.</span></b>			
 					</security:authorize>
 				</p>
 				
@@ -28,8 +28,8 @@
 				</p>
 			
 				<ul>
-					<li><a href="user">User</a>, requires the user to be logged in with the <code>ROLE_USER</code> Spring Security authority.</li>
-					<li><a href="admin">Admin</a>, requires the user to be logged in with the <code>ROLE_ADMIN</code> Spring Security authority. 
+					<li><a href="user"><b>USER</b></a>, requires the user to be logged in with the <code>ROLE_USER</code> Spring Security authority.</li>
+					<li><a href="admin"><b>ADMIN</b></a>, requires the user to be logged in with the <code>ROLE_ADMIN</code> Spring Security authority. 
 					    See below for the currently configured list of admin accounts.</li>
 					<security:authorize access="hasRole('ROLE_USER')">
 						<li><a href="j_spring_security_logout">Logout</a>, log out directly and return to this page.</li>
