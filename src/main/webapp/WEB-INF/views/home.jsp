@@ -22,9 +22,9 @@
 					</security:authorize>
 				</p>
 				
-				<p>This example application is configured with several pages requiring different levels of access. 
+				<p style="color:MediumSeaGreen;"> <i>This example application is configured with several pages requiring different levels of access. 
 				This page does not require the user to be logged in. Use the tabs in the navbar above to navigate to 
-				pages with different access requirements.
+				pages with different access requirements.</i>
 				</p>
 			
 				<ul>
