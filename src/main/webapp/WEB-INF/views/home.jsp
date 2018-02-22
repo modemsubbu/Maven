@@ -8,7 +8,7 @@
 	<div class="row-fluid">
 		<div class="span10 offset1">
 
-			<h1 color="red">
+			<h1 align="center" style="color:Tomato;">
 				Hello Nani!!!!!!!!..............
 			</h1>
 		
