@@ -33,7 +33,7 @@
 				<span class="icon-bar"></span> 
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="" style="background-color:DodgerBlue;" align="center">Simple Web App</a>
+			<a class="brand" href="" style="background-color:rose;" align="center">Simple Web App</a>
 			<c:if test="${ not empty pageName }">
 				<div class="nav-collapse collapse">
 					<ul class="nav">
