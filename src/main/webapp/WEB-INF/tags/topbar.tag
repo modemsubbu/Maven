@@ -33,7 +33,7 @@
 				<span class="icon-bar"></span> 
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="">MITREid Connect: Simple Web App</a>
+			<a class="brand" href="">Simple Web App</a>
 			<c:if test="${ not empty pageName }">
 				<div class="nav-collapse collapse">
 					<ul class="nav">
